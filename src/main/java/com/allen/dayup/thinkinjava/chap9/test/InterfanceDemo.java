@@ -1,6 +1,7 @@
 package com.allen.dayup.thinkinjava.chap9.test;
 
-import test.chap9.test5;
+
+import com.allen.dayup.thinkinjava.chap9.test5;
 
 /**
  * @Auther: 20190598
