@@ -1,6 +1,4 @@
-package com.allen.dayup.manhuasuanfa.chap1;
-
-import java.util.Map;
+package com.allen.dayup.manhuasuanfa.chap2;
 
 /**
  * @Auther: allen
