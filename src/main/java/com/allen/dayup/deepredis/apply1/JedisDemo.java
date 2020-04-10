@@ -11,7 +11,7 @@ import java.util.Map;
  * @Date: 2020-02-24 11:00
  * @Description:
  */
-public class JedisDemo {
+public class    JedisDemo {
     static Jedis jedis;
 
     static {
