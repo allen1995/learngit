@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e10f30ef-7729-4e00-bf46-ae01e510c176" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/default.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/annotion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/annotion/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/annotion/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/DatagramSocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/DatagramSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/FileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/FilterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/GetResourceAsStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/ClassInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/FieldMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/HelloDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/MethodMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/ReflectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ActionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/FunctionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/PredicatieDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/SupplierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/utils/RandomDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/manhuasuanfa/chap4/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/进军谷歌/chap6/ArrayArithmetic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap8/UnsafeArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/default.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com.allen.dayup/java8/ParameterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learmdayup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learmdayup.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/Java8Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/Java8Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/SimpleStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/SimpleStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/BadSuspend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/BadSuspend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/GoodSuspend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/GoodSuspend.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/learmdayup$GuavaDemoTest.ic" NAME="GuavaDemoTest Coverage Results" MODIFIED="1576405984197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.allen.dayup.guava.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="210" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="learmdayup" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/function/Supplier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#1738#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/FunctionDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/SupplierDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ConsumerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/PredicatieDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ActionDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <folding>
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/function/Predicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/System.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/PrintStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="794">
+              <caret line="819" column="16" selection-start-line="819" selection-start-column="16" selection-end-line="819" selection-end-column="16" />
+              <folding>
+                <element signature="e#25377#25378#0" expanded="true" />
+                <element signature="e#25402#25403#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>494</find>
+      <find>get</find>
+      <find>getField</find>
+      <find>submit</find>
+      <find>execute</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\code\learndayup\src\main\java\com\allen\dayup</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap3/RateLimiterDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/deepinjava/stage1/lesson2/StringDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap3/ExtThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap3/TraceThreadPoolExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap3/DivTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap3/CountTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/manhuasuanfa/chap2/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/manhuasuanfa/chap2/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/manhuasuanfa/chap2/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/manhuasuanfa/chap2/MyBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap4/ThreadLocalDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap4/ThreadLocalDemo_Gc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap4/RandomPerformanceAnalysis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap4/AtomicReferenceABAdemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap4/AtomicRefenrendceStamedDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap4/AtomicIntegerArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap4/AtomicIntegerFieldUpdaterDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap4/LockFreeVector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap4/AtomicIntegerArrayDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/进军谷歌/chap6/ArrayArithmetic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/manhuasuanfa/chap4/Sort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/PathDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/utils/RandomDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/ClassInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/ReflectionDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/FieldMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/MethodMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/HelloDynamicProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/annotion/Range.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/annotion/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/annotion/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/FileDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/StreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/FilterMain.java" />
+        <option value="$PROJECT_DIR$/default.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/GetResourceAsStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/DatagramSocketServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/DatagramSocketClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/StringUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com.allen.dayup/java8/ParameterDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap8/UnsafeArrayList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/BadSuspend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/GoodSuspend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/FunctionDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/SupplierDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ConsumerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/PredicatieDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ActionDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/Test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/software/program/apache-maven-3.3.9" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="learmdayup" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="learmdayup" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="learmdayup" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="239" />
+    <option name="width" value="1421" />
+    <option name="height" value="1011" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="allen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="allen" type="462c0819:PsiDirectoryNode" />
+              <item name="dayup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="allen" type="462c0819:PsiDirectoryNode" />
+              <item name="dayup" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.allen.dayup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.allen.dayup" type="462c0819:PsiDirectoryNode" />
+              <item name="guava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.allen.dayup" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588168706805" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../message/activeMQ" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\learndayup\src\main\resource" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.ConsumerDemo" />
+      <module name="learmdayup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.FunctionDemo" />
+      <module name="learmdayup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicatieDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.PredicatieDemo" />
+      <module name="learmdayup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupplierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.SupplierDemo" />
+      <module name="learmdayup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.Test" />
+      <module name="learmdayup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterDemo.testAbs" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="learmdayup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allen.dayup.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.allen.dayup.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.ParameterDemo" />
+      <option name="METHOD_NAME" value="testAbs(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ParameterDemo.testAbs" />
+      <item itemvalue="Application.FunctionDemo" />
+      <item itemvalue="Application.SupplierDemo" />
+      <item itemvalue="Application.ConsumerDemo" />
+      <item itemvalue="Application.PredicatieDemo" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.PredicatieDemo" />
+        <item itemvalue="Application.ConsumerDemo" />
+        <item itemvalue="Application.SupplierDemo" />
+        <item itemvalue="Application.FunctionDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e10f30ef-7729-4e00-bf46-ae01e510c176" name="Default Changelist" comment="" />
+      <created>1576398551090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576398551090</updated>
+      <workItem from="1576398555326" duration="13490000" />
+      <workItem from="1577524201712" duration="4450000" />
+      <workItem from="1582466511279" duration="17536000" />
+      <workItem from="1583799294688" duration="838000" />
+      <workItem from="1584286199033" duration="3636000" />
+      <workItem from="1584622910878" duration="18772000" />
+      <workItem from="1585021362315" duration="11527000" />
+      <workItem from="1585200825691" duration="48637000" />
+      <workItem from="1586140421442" duration="16086000" />
+      <workItem from="1587171672612" duration="13731000" />
+    </task>
+    <task id="LOCAL-00001" summary="高并发程序设计第二章练习">
+      <created>1584666563346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584666563346</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="GuavaDemoTest - 2019.12.15 at 20h 50m 43s.xml">
+      <configuration name="GuavaDemoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterDemo_testAbs - 2020.04.06 at 18h 10m 22s.xml">
+      <configuration name="ParameterDemo.testAbs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GuavaDemoTest_testCheckArg - 2020.04.06 at 18h 11m 26s.xml">
+      <configuration name="GuavaDemoTest.testCheckArg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterDemo_testAbs - 2020.04.06 at 18h 11m 43s.xml">
+      <configuration name="ParameterDemo.testAbs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterDemo_testAbs - 2020.04.06 at 18h 14m 15s.xml">
+      <configuration name="ParameterDemo.testAbs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterDemo_testAbs - 2020.04.06 at 18h 14m 35s.xml">
+      <configuration name="ParameterDemo.testAbs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterDemo_testAbs - 2020.04.06 at 18h 15m 01s.xml">
+      <configuration name="ParameterDemo.testAbs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterDemo_testAbsNegative - 2020.04.06 at 18h 15m 48s.xml">
+      <configuration name="ParameterDemo.testAbsNegative" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterDemo_testCapitalize - 2020.04.06 at 18h 22m 37s.xml">
+      <configuration name="ParameterDemo.testCapitalize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParameterDemo_testCapitalize - 2020.04.06 at 18h 23m 48s.xml">
+      <configuration name="ParameterDemo.testCapitalize" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="148703000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.40732265" side_tool="true" weight="0.22857143" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.59267735" visible="true" weight="0.24518272" />
+      <window_info id="Structure" order="6" sideWeight="0.40732265" side_tool="true" weight="0.22857143" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32959327" />
+      <window_info anchor="bottom" id="Version Control" order="1" visible="true" weight="0.32959327" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32959327" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32678822" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.38709676" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5019305" side_tool="true" weight="0.32956812" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" sideWeight="0.49929875" weight="0.32956812" />
+      <window_info anchor="right" id="SciView" order="5" sideWeight="0.49509117" weight="0.32956812" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.4964937" weight="0.32956812" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Commander" order="8" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" sideWeight="0.49929875" weight="0.24983388" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="340" height="645" id="Documentation" order="11" sideWeight="0.50490886" side_tool="true" weight="0.32956812" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.40732265" side_tool="true" weight="0.22857143" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.59267735" visible="true" weight="0.24518272" />
+      <window_info id="Structure" order="6" sideWeight="0.40732265" side_tool="true" weight="0.22857143" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32959327" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32959327" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32959327" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.31697056" />
+      <window_info anchor="bottom" id="Debug" order="9" visible="true" weight="0.38709676" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5019305" side_tool="true" weight="0.32956812" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" sideWeight="0.49929875" weight="0.32956812" />
+      <window_info anchor="right" id="SciView" order="5" sideWeight="0.49509117" weight="0.32956812" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.4964937" weight="0.32956812" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Commander" order="8" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" sideWeight="0.49929875" weight="0.24983388" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="340" height="645" id="Documentation" order="11" sideWeight="0.50490886" side_tool="true" weight="0.32956812" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="高并发程序设计第二章练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="高并发程序设计第二章练习" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <condition expression="(!(Thread.currentThread().getName().equals(&quot;main&quot;)))&amp;&amp; size == 7" language="JAVA" />
+          <url>jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/ArrayList.java</url>
+          <line>461</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>(!(Thread.currentThread().getName().equals(&quot;main&quot;)))&amp;&amp; size == 7</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(!(Thread.currentThread().getName().equals(&quot;main&quot;)))&amp;&amp;size()==7</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(!(Thread.currentThread().getName().equals(&quot;main&quot;)))&amp;&amp;size==7</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!(Thread.currentThread().getName().equals(&quot;main&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>size</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>GetResourceAsStreamDemo.class.getResourceAsStream(&quot;classpath:\\default.properties&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>GetResourceAsStreamDemo.class</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>GetResourceAsStreamDemo.class.getResourceAsStream(&quot;/default.properties&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>person.getClass().getFields()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>person.getClass()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>legalNameArr[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ComparisonChain.start()                 .compare(user.getName(), user2.getName())                 .compare(user.getAge(), user2.getAge())                 .result()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>optional.transform();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.2.4.RELEASE/spring-core-3.2.4.RELEASE.jar!/org/springframework/cglib/proxy/Proxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/annotion/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/FilenameFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/FileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/jre/lib/rt.jar!/java/io/InputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/org/omg/CORBA_2_3/portable/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#5521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#15696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/Readable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#20897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/javax/crypto/CipherInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="69" column="30" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/FilterInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#9880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/zip/CheckedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/StreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/FilterMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="433" selection-start-line="433" selection-end-line="433" />
+          <folding>
+            <element signature="e#5784#5785#0" expanded="true" />
+            <element signature="e#5810#5811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2209" column="39" selection-start-line="2209" selection-start-column="32" selection-end-line="2209" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#148818#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/default.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/GetResourceAsStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/nio/charset/StandardCharsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/DatagramSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/DatagramSocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.allen.dayup/java8/ParameterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap8/UnsafeArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7208">
+          <caret line="462" selection-start-line="462" selection-end-line="462" />
+          <folding>
+            <element signature="e#7280#7281#0" expanded="true" />
+            <element signature="e#7348#7349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.allen.dayup/guava/GuavaDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/net/DatagramPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3094">
+          <caret line="213" column="31" selection-start-line="213" selection-start-column="31" selection-end-line="213" selection-end-column="31" />
+          <folding>
+            <element signature="e#7459#7460#0" expanded="true" />
+            <element signature="e#7485#7486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="1055" column="22" selection-start-line="1055" selection-start-column="22" selection-end-line="1055" selection-end-column="22" />
+          <folding>
+            <element signature="e#22472#22473#0" expanded="true" />
+            <element signature="e#22516#22517#0" expanded="true" />
+            <element signature="e#77015#77016#0" expanded="true" />
+            <element signature="e#77087#77088#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/BadSuspend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="31" column="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/GoodSuspend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="78" lean-forward="true" selection-start-line="7" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap3/LockSupportDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="9" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/DaemonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/jre/lib/rt.jar!/java/util/function/Supplier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.1-jre/guava-28.1-jre-sources.jar!/com/google/common/base/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#2705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="800" column="23" selection-start-line="800" selection-start-column="23" selection-end-line="800" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#1738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="819" column="16" selection-start-line="819" selection-start-column="16" selection-end-line="819" selection-end-column="16" />
+          <folding>
+            <element signature="e#25377#25378#0" expanded="true" />
+            <element signature="e#25402#25403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/SupplierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ConsumerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/FunctionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/PredicatieDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ActionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.7 interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>learmdayup</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.62</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

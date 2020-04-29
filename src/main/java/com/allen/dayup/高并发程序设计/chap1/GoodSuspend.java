@@ -29,27 +29,22 @@ public class GoodSuspend {
         public void run() {
 
             while (true){
-
-                synchronized (this){
-                    while ( suspendMe ) {
-
+                //如果suspendMe为true，调用wait方法阻塞当前线成；否则，就执行业务逻辑
+                synchronized (this) {
+                    while (suspendMe) {
                         try {
                             wait();
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
-
-                        synchronized (lock){
-                            System.out.println("in ChangeObjectThread!");
-                            try {
-                                Thread.sleep(2000);
-                            } catch (InterruptedException e) {
-                                e.printStackTrace();
-                            }
-                        }
-
-                        Thread.yield();
                     }
+
+
+                    synchronized (lock) {
+                        System.out.println("in ChangeObjectThread!");
+                    }
+
+                    Thread.yield();
                 }
             }
         }
@@ -75,7 +70,7 @@ public class GoodSuspend {
         t2.start();
         Thread.sleep(1000);
         t1.suspendMe();
-        System.out.println("suspend t1 2 second");
+        System.out.println("=====================》suspend t1 2 second");
         Thread.sleep(2000);
         System.out.println("resume t1");
         t1.resumeMe();

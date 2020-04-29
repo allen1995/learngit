@@ -20,14 +20,19 @@ public class BadSuspend {
 
         @Override
         public void run() {
+            synchronized (u){
 
-            System.out.println("in " + Thread.currentThread().getName());
-            Thread.currentThread().suspend();
+                System.out.println("in " + Thread.currentThread().getName());
+                Thread.currentThread().suspend();
+            }
         }
     }
 
     public static void main(String[] args) throws InterruptedException{
+        //对照观察t1和t2，休眠主线程让t1阻塞，而t2在阻塞之前调用resume
+
         t1.start();
+        //主线程休眠100毫秒，保证t1已经阻塞
         try {
             Thread.sleep(100);
         } catch (InterruptedException e) {
