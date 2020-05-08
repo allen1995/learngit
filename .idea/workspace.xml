@@ -2,41 +2,390 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e10f30ef-7729-4e00-bf46-ae01e510c176" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/default.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/annotion/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/annotion/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/annotion/Range.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/DatagramSocketClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/DatagramSocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/FileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/FilterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/GetResourceAsStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/ClassInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/FieldMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/HelloDynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/MethodMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/reflection/ReflectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ActionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/FunctionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/PredicatieDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/SupplierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/utils/RandomDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/manhuasuanfa/chap4/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/进军谷歌/chap6/ArrayArithmetic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap8/UnsafeArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/default.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.allen.dayup/java8/ParameterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_51.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/arithmetic/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/exercise/exercise1/Implementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/exercise/exercise1/VirtualProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/exercise/exercise1/VirtualProxyBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/manualstate/MapLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/manualstate/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/manualstate/Washer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/proxy/Implemetation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/proxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/proxy/ProxyBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/state/Impletation1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/state/Impletation2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/state/StateBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/Rinse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/Spin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/StateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/Wash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/Washer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/template/AbstractionFramework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/template/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/x/TypedIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_1_jre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_1_jre.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_42_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_42_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_1_1_33_Fork26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_1_1_33_Fork26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_client_4_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_client_4_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_common_4_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_common_4_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_logging_4_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_logging_4_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_remoting_4_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_remoting_4_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learmdayup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learmdayup.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/Java8Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/Java8Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/SimpleStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/SimpleStreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/BadSuspend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/BadSuspend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/GoodSuspend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/GoodSuspend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/manualstate/MapLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/manualstate/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/manualstate/Washer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/proxy/Implemetation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/proxy/Proxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/proxy/ProxyBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/state/Impletation1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/state/Impletation2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/state/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/state/StateBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/statemachine/Rinse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/statemachine/Spin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/statemachine/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/statemachine/StateMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/statemachine/Wash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/statemachine/Washer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/template/AbstractionFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/template/MyApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/allen/dayup/程序员的算法趣题/chap1/chap1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Statefile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/deepinjava/stage1/lesson2/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/deepredis/JedisDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/deepredis/apply1/JedisDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/deepredis/apply1/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/deepredis/apply2/RedisWithReentrantLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/guava/GuavaDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/guava/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/annotion/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/annotion/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/annotion/Range.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/io/DatagramSocketClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/io/DatagramSocketServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/io/FileDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/io/FilterMain$CountInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/io/FilterMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/io/GetResourceAsStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/io/PathDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/io/StreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/io/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/reflection/ClassInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/reflection/FieldMain$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/reflection/FieldMain$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/reflection/FieldMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/reflection/HelloDynamicProxy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/reflection/HelloDynamicProxy$Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/reflection/HelloDynamicProxy$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/reflection/HelloDynamicProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/reflection/MethodMain$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/reflection/MethodMain$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/reflection/MethodMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/reflection/ReflectionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/stream/ActionDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/stream/ActionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/stream/ConsumerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/stream/FunctionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/stream/Java8Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/stream/PredicatieDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/stream/SimpleStreamDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/stream/SimpleStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/stream/SupplierDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/stream/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/utils/IoUtilsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/utils/RandomDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/java8/utils/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/manhuasuanfa/chap2/MyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/manhuasuanfa/chap2/MyBinaryTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/manhuasuanfa/chap2/MyBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/manhuasuanfa/chap2/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/manhuasuanfa/chap2/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/manhuasuanfa/chap2/MyQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/manhuasuanfa/chap4/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/cahp13/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/cahp13/Groups.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/cahp13/InfiniteRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/cahp13/IntegerMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/cahp13/Jgrep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/cahp13/ReFlags.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/cahp13/Splitting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/cahp13/Test10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/cahp13/Test15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/cahp13/TestRegularExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/cahp13/ThreatAnalyzer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/cahp13/Turtle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/AnonymousConstrutors$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/AnonymousConstrutors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Callbacks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Incrementable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/MyIncrement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Parcel10$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Parcel10$Destination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Parcel10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Parcel9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Parcel9$Destination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Parcel9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Parcell$Content.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Parcell$Destination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Parcell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Parcell2$Content.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Parcell2$Destination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Parcell2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Selector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Sequence$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Sequence$SequeceSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/Sequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/caller1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/section10/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/section10/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/section10/GreenHouseControls$Bell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/section10/GreenHouseControls$LightOff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/section10/GreenHouseControls$LightOn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/section10/GreenHouseControls$Restart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/section10/GreenHouseControls$Terminate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/section10/GreenHouseControls$ThermostatDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/section10/GreenHouseControls$ThermostatNight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/section10/GreenHouseControls$WaterOff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/section10/GreenHouseControls$WaterOn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap10/section10/GreenHouseControls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap11/ListIteration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/BaseballException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/FoulException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/HoHumException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/Inning.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/LostMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/PopPout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/RainedOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/Simple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/SimpleException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/Storm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/StormException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/StormyInning.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/StrikeExcepion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/Test12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/Test22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/Test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/Test8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/VeryImportantException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap12/test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/AbstractCovariant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Addable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/AddableCollectionAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/ArrayMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/BankTeller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/BasicHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Building.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/ClassTypeCapture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Coffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/ConbinationFibonacci$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/ConbinationFibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/CovariantReturnTypes$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/CovariantReturnTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Customer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Derived.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/DerivedGetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Fill2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/FilledListMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/FixedSizeStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/GenericBoundDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/GenericCast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/GenericMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/GenericTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/GenericWildcardDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Holder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Hourly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/IterableFibonacci$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/IterableFibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Light.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/MultipleInterfaceVariants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Orange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/OrdinaryGetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Payalbe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Subtype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Teller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Teller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/Test34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/WhiteLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap15/note.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/AssemblingMultidimensionalArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/BerylliumSphere.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/IceCream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/MultiDimWrapperArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/Test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/Test7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/ThreeDWithNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/section5/ArraysOfGenerics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/section5/ClassParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/section5/MethodParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap16/section5/ParameterizedArrayType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap17/section4/CollectionData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap17/section6/HashType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap17/section6/MySortedSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap17/section6/SetType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap17/section6/SortedSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap17/section6/Test9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap17/section6/Test9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap17/section6/TreeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap17/section6/TypesForSets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap8/Cycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap8/MoreUseful.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap8/Music.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap8/RTTI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap8/RandomShapeGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap8/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap8/SonMusic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap8/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap8/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap8/Useful.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/AbstractInstrument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/DemoSon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/Instrument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/Music5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/Note.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/Playable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/Wind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/bigSon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/bigSon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/bigSon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/test/InterfanceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/chap9/test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/thinkinjava/date/DateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/进军谷歌/chap6/ArrayArithmetic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/BadSuspend$ChangeObjectThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/BadSuspend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/DaemonDemo$DaemonThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/DaemonDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/GoodSuspend$ChangeObjectThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/GoodSuspend$ReadObjectThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/GoodSuspend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/HashMapMutiThread$AddThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/HashMapMutiThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/JoinMain$AddThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/JoinMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/NoVisibility$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/NoVisibility$Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/NoVisibility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/PriorityDemo$HighPriority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/PriorityDemo$LowPriority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/PriorityDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/SimpleWN$T1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/SimpleWN$T2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/SimpleWN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/ThreadGroupName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/VisibilityDemo$PlusTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap1/VisibilityDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/CountTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/CyclicBarrierDemo$BarrierRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/CyclicBarrierDemo$Soldier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/CyclicBarrierDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/DivTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/ExtThreadPool$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/ExtThreadPool$MyTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/ExtThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/IntLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/LockSupportDemo$ChangeObjectThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/LockSupportDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/RateLimiterDemo$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/RateLimiterDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/TimeLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/TraceThreadPoolExecutor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/TraceThreadPoolExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap3/TryLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/AtomicIntegerArrayDemo$AddTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/AtomicIntegerArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/AtomicIntegerFieldUpdaterDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/AtomicIntegerFieldUpdaterDemo$Candidate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/AtomicIntegerFieldUpdaterDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/AtomicRefenrendceStamedDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/AtomicRefenrendceStamedDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/AtomicRefenrendceStamedDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/AtomicReferenceABAdemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/AtomicReferenceABAdemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/AtomicReferenceABAdemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/RandomPerformanceAnalysis$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/RandomPerformanceAnalysis$RndTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/RandomPerformanceAnalysis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/ThreadLocalDemo$ParseDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/ThreadLocalDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/ThreadLocalDemo_Gc$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/ThreadLocalDemo_Gc$ParseDate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/ThreadLocalDemo_Gc$ParseDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap4/ThreadLocalDemo_Gc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap8/UnsafeArrayList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap8/UnsafeArrayList$AddTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/allen/dayup/高并发程序设计/chap8/UnsafeArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/default.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/learmdayup-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.allen.dayup.grokkingalgorithms.chap4.RecursiveCountTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.allen.dayup.grokkingalgorithms.chap4.RecursiveSumTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.allen.dayup.guava.GuavaDemoTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.allen.dayup.grokkingalgorithms.chap4.RecursiveCountTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.allen.dayup.grokkingalgorithms.chap4.RecursiveSumTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.allen.dayup.guava.GuavaDemoTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/allen/dayup/guava/GuavaDemoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/allen/dayup/java8/ParameterDemo.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,98 +425,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/function/Supplier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#1738#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/FunctionDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/SupplierDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ConsumerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/PredicatieDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ActionDemo.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-              <folding>
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-              </folding>
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/function/Predicate.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/state/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/Spin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/Rinse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/StateMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/Wash.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/Washer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/template/AbstractionFramework.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/System.java">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/PrintStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
-              <caret line="819" column="16" selection-start-line="819" selection-start-column="16" selection-end-line="819" selection-end-column="16" />
+            <state relative-caret-position="13343">
+              <caret line="864" column="23" selection-start-line="864" selection-start-column="23" selection-end-line="864" selection-end-column="23" />
               <folding>
-                <element signature="e#25377#25378#0" expanded="true" />
-                <element signature="e#25402#25403#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -190,6 +535,7 @@
       <find>getField</find>
       <find>submit</find>
       <find>execute</find>
+      <find>iterator</find>
     </findStrings>
     <dirStrings>
       <dir>E:\code\learndayup\src\main\java\com\allen\dayup</dir>
@@ -201,8 +547,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap3/RateLimiterDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/deepinjava/stage1/lesson2/StringDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap3/ExtThreadPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap3/TraceThreadPoolExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap3/DivTask.java" />
@@ -241,7 +585,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/DatagramSocketServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/DatagramSocketClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/StringUtils.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com.allen.dayup/java8/ParameterDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap8/UnsafeArrayList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/BadSuspend.java" />
@@ -252,13 +595,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/PredicatieDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ActionDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/allen/dayup/arithmetic/LinkedList.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/software/program/apache-maven-3.3.9" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1-bin" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -273,11 +619,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="learmdayup" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="learmdayup" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -295,8 +636,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,25 +667,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="allen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="allen" type="462c0819:PsiDirectoryNode" />
               <item name="dayup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -355,118 +675,54 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="allen" type="462c0819:PsiDirectoryNode" />
               <item name="dayup" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkinpattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
               <item name="learndayup" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dayup" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkinpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="chap4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
               <item name="learndayup" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.allen.dayup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.allen.dayup" type="462c0819:PsiDirectoryNode" />
-              <item name="guava" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.allen.dayup" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learndayup" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="dayup" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkinpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="chap4" type="462c0819:PsiDirectoryNode" />
+              <item name="statemachine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learmdayup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588168706805" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../message/activeMQ" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588908014016" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springbootdemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -485,88 +741,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.ConsumerDemo" />
-      <module name="learmdayup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.FunctionDemo" />
-      <module name="learmdayup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PredicatieDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.PredicatieDemo" />
-      <module name="learmdayup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SupplierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.SupplierDemo" />
-      <module name="learmdayup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.Test" />
-      <module name="learmdayup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParameterDemo.testAbs" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="learmdayup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.allen.dayup.java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.allen.dayup.java8" />
-      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.ParameterDemo" />
-      <option name="METHOD_NAME" value="testAbs(int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LinkedList">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -629,21 +804,102 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.ConsumerDemo" />
+      <module name="learmdayup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.arithmetic.LinkedList" />
+      <module name="learmdayup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allen.dayup.arithmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicatieDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.PredicatieDemo" />
+      <module name="learmdayup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupplierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.SupplierDemo" />
+      <module name="learmdayup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.stream.Test" />
+      <module name="learmdayup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allen.dayup.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterDemo.testAbs" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="learmdayup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.allen.dayup.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.allen.dayup.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.allen.dayup.java8.ParameterDemo" />
+      <option name="METHOD_NAME" value="testAbs(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.ParameterDemo.testAbs" />
-      <item itemvalue="Application.FunctionDemo" />
       <item itemvalue="Application.SupplierDemo" />
       <item itemvalue="Application.ConsumerDemo" />
       <item itemvalue="Application.PredicatieDemo" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.LinkedList" />
+      <item itemvalue="JUnit.ParameterDemo.testAbs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.PredicatieDemo" />
         <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.SupplierDemo" />
-        <item itemvalue="Application.FunctionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -667,6 +923,8 @@
       <workItem from="1585200825691" duration="48637000" />
       <workItem from="1586140421442" duration="16086000" />
       <workItem from="1587171672612" duration="13731000" />
+      <workItem from="1588818693775" duration="13484000" />
+      <workItem from="1588902344348" duration="2791000" />
     </task>
     <task id="LOCAL-00001" summary="高并发程序设计第二章练习">
       <created>1584666563346</created>
@@ -711,27 +969,28 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148703000" />
+    <option name="totallyTimeSpent" value="164978000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.40732265" side_tool="true" weight="0.22857143" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.59267735" visible="true" weight="0.24518272" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.59267735" visible="true" weight="0.25053304" />
       <window_info id="Structure" order="6" sideWeight="0.40732265" side_tool="true" weight="0.22857143" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32959327" />
-      <window_info anchor="bottom" id="Version Control" order="1" visible="true" weight="0.32959327" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286334" />
+      <window_info anchor="bottom" id="Version Control" order="1" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32959327" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.32678822" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3264642" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.38709676" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -740,7 +999,7 @@
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" sideWeight="0.49929875" weight="0.32956812" />
+      <window_info anchor="right" id="Maven" order="4" sideWeight="0.49929875" weight="0.32942432" />
       <window_info anchor="right" id="SciView" order="5" sideWeight="0.49509117" weight="0.32956812" />
       <window_info anchor="right" id="Database" order="6" sideWeight="0.4964937" weight="0.32956812" />
       <window_info anchor="right" id="Palette" order="7" />
@@ -786,6 +1045,56 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="高并发程序设计第二章练习" />
@@ -880,123 +1189,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.2.4.RELEASE/spring-core-3.2.4.RELEASE.jar!/org/springframework/cglib/proxy/Proxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/annotion/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/FilenameFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/FileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/jre/lib/rt.jar!/java/io/InputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/org/omg/CORBA_2_3/portable/InputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#5521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/InputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#15696#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/Readable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#20897#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/javax/crypto/CipherInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="69" column="30" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/FilterInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#9880#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/zip/CheckedInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/StreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1028,28 +1220,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="433" selection-start-line="433" selection-end-line="433" />
-          <folding>
-            <element signature="e#5784#5785#0" expanded="true" />
-            <element signature="e#5810#5811#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="2209" column="39" selection-start-line="2209" selection-start-column="32" selection-end-line="2209" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#148818#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/Properties.java" />
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/Class.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resource/default.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1060,13 +1232,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/nio/charset/StandardCharsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/nio/charset/StandardCharsets.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/io/DatagramSocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1094,17 +1260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.allen.dayup/java8/ParameterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap8/UnsafeArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1112,24 +1267,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7208">
-          <caret line="462" selection-start-line="462" selection-end-line="462" />
-          <folding>
-            <element signature="e#7280#7281#0" expanded="true" />
-            <element signature="e#7348#7349#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com.allen.dayup/guava/GuavaDemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1137,30 +1275,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/net/DatagramPacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3094">
-          <caret line="213" column="31" selection-start-line="213" selection-start-column="31" selection-end-line="213" selection-end-column="31" />
-          <folding>
-            <element signature="e#7459#7460#0" expanded="true" />
-            <element signature="e#7485#7486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="1055" column="22" selection-start-line="1055" selection-start-column="22" selection-end-line="1055" selection-end-column="22" />
-          <folding>
-            <element signature="e#22472#22473#0" expanded="true" />
-            <element signature="e#22516#22517#0" expanded="true" />
-            <element signature="e#77015#77016#0" expanded="true" />
-            <element signature="e#77087#77088#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/net/DatagramPacket.java" />
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/Thread.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/高并发程序设计/chap1/BadSuspend.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -1189,108 +1305,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/jre/lib/rt.jar!/java/util/function/Supplier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.1-jre/guava-28.1-jre-sources.jar!/com/google/common/base/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#2705#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="800" column="23" selection-start-line="800" selection-start-column="23" selection-end-line="800" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#1738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="819" column="16" selection-start-line="819" selection-start-column="16" selection-end-line="819" selection-end-column="16" />
-          <folding>
-            <element signature="e#25377#25378#0" expanded="true" />
-            <element signature="e#25402#25403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/SupplierDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ConsumerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/FunctionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/PredicatieDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/jre/lib/rt.jar!/java/util/function/Supplier.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/28.1-jre/guava-28.1-jre-sources.jar!/com/google/common/base/Function.java" />
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/Long.java" />
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/function/Function.java" />
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/function/Supplier.java" />
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/lang/System.java" />
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/io/PrintStream.java" />
+    <entry file="jar://D:/software/openjdk-1.8.0.161-1/src.zip!/java/util/function/Predicate.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1302,14 +1324,171 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/FunctionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/SupplierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/arithmetic/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/utils/IoUtilsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.allen.dayup/java8/ParameterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/deepredis/apply1/JedisDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ConsumerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/PredicatieDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/java8/stream/ActionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="272">
           <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/proxy/Implemetation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/state/StateBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/Spin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/Rinse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/Wash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/StateMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/statemachine/Washer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/allen/dayup/thinkinpattern/chap4/template/AbstractionFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13343">
+          <caret line="864" column="23" selection-start-line="864" selection-start-column="23" selection-end-line="864" selection-end-column="23" />
           <folding>
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>
