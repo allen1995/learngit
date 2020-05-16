@@ -1,7 +1,5 @@
 package com.allen.dayup.java8.io;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-
 import java.io.*;
 
 /**

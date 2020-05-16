@@ -3,7 +3,6 @@ package com.allen.dayup.deepredis.apply6;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.Pipeline;
 import redis.clients.jedis.Response;
-import redis.clients.jedis.Transaction;
 
 /**
  * @Auther: 20190598
