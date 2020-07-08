@@ -40,7 +40,7 @@ public class StreamDemo {
      * @throws IOException
      */
     private static void readFile() throws IOException {
-        File file = new File("D:\\test.txt");
+        File file = new File("D:\\Test.txt");
 
 
         try (InputStream inputStream = new FileInputStream(file) ){
@@ -58,7 +58,7 @@ public class StreamDemo {
      * @throws IOException
      */
     private static void readFileWithBuffer() throws IOException {
-        File file = new File("D:\\test.txt");
+        File file = new File("D:\\Test.txt");
         byte[] buffer = new byte[1000];
 
         try (InputStream inputStream = new FileInputStream(file) ){

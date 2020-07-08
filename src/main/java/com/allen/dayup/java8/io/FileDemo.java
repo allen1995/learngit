@@ -14,7 +14,7 @@ public class FileDemo {
     public static void main(String[] args) throws IOException {
 
         //创建一个新的文件
-        File file = new File("D:\\test.txt");
+        File file = new File("D:\\Test.txt");
         System.out.println(file);
 
         //创建文件
@@ -23,7 +23,7 @@ public class FileDemo {
         //删除文件
         System.out.println(file.delete());
 
-        File file1 = new File(".\\test.txt");
+        File file1 = new File(".\\Test.txt");
 
         //文件路径
         File f = new File("..");

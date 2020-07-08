@@ -18,7 +18,7 @@ public class Test {
         String myvalue = "[\n" +
                 "\t{\n" +
                 "\t\t\"userid\":\"50e8op178ef3fafb410c58dca84f1d179a464083\",\n" +
-                "\t\t\"iotid\":\"test\",\n" +
+                "\t\t\"iotid\":\"Test\",\n" +
                 "\t\t\"mainid\":8,\n" +
                 "\t\t\"triggeriotid\":\"DhCMIlZ8vVy6lSfwbRtO001006d400\",\n" +
                 "\t\t\"templateid\":2\n" +
@@ -26,7 +26,7 @@ public class Test {
                 "\t\n" +
                 "\t{\n" +
                 "\t\t\"userid\":\"50e8op178ef3fafb410c58dca84f1d179a464083\",\n" +
-                "\t\t\"iotid\":\"test\",\n" +
+                "\t\t\"iotid\":\"Test\",\n" +
                 "\t\t\"mainid\":8,\n" +
                 "\t\t\"triggeriotid\":\"tLyIqq3I30wwCtVKccvc000100\",\n" +
                 "\t\t\"templateid\":2\n" +

@@ -32,7 +32,7 @@ public class Test1 {
         //创建一个空实例
         Optional empty = Optional.ofNullable(null);
         //创建一个不允许值为空的空实例
-        Optional noEmpty = Optional.of("test");
+        Optional noEmpty = Optional.of("Test");
 
         //如果值不为null，orElse方法返回Optional实例的值。
         //如果为null，返回传入的消息。

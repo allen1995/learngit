@@ -14,7 +14,7 @@ public class Demo {
         Pattern p = Pattern.compile("\\b[Ssct]\\w+");
         Matcher m = p.matcher("");
 
-        m.reset(" String test");
+        m.reset(" String Test");
         while ( m.find() ){
             System.out.println(m.group());
         }

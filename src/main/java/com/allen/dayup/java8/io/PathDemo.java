@@ -13,7 +13,7 @@ import java.nio.file.*;
 public class PathDemo {
 
     public static void main(String[] args) throws IOException {
-        Path path = Paths.get("E:\\test.txt");
+        Path path = Paths.get("E:\\Test.txt");
         Path path1 = Paths.get("E:/teatcopy1.txt");
         Files.copy(path, path1, StandardCopyOption.COPY_ATTRIBUTES);
     }
