@@ -1,8 +1,6 @@
 package com.allen.dayup.arithmetic;
 
 import java.io.IOException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 /**
  * @Auther: 20190598
@@ -12,17 +10,7 @@ import java.util.concurrent.Executors;
 public class Test {
 
     public static void main(String[] args) throws IOException {
-        //ObjectMapper mapper = new ObjectMapper();
-        //String json = "{\"name\":\"\",\"age\":12}";
-        //JsonNode jsonNode = mapper.readTree(json);
-        //System.out.println(jsonNode.get("name").asText().isEmpty());
-        //System.out.println(jsonNode.get("test"));
 
-        //ObjectMapper mapper = new ObjectMapper();
-        //String json = "{\"name\":\"allen\"}";
-        //JsonNode node = mapper.readTree(json);
-        //
-        //System.out.println(mapper.readValue(node.toString(), HashMap.class));
 
         int starttimeInt = 2200;
         int endtimeInt = 800;
