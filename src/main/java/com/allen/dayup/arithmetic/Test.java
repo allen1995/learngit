@@ -15,8 +15,8 @@ public class Test {
         int starttimeInt = 2200;
         int endtimeInt = 800;
         int nowTimeInt = 900;
-
         int b = 0;
+        int  test = 0;
          boolean result = (starttimeInt < endtimeInt && (starttimeInt <= nowTimeInt && nowTimeInt <= endtimeInt)) || (starttimeInt > endtimeInt && (starttimeInt <= nowTimeInt || nowTimeInt <= endtimeInt));
         System.out.println(result);
     }
