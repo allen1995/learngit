@@ -33,13 +33,13 @@ public class IoUtilsDemo {
         //    IOUtils.closeQuietly(is);
         //}
 
-        File file = new File("E:/test.txt");
+        File file = new File("E:/Test.txt");
         List<String> lines = FileUtils.readLines(file, "utf-8");
         lines.stream().forEach(System.out::println);
 
         byte[] fileBytes = FileUtils.readFileToByteArray(file);
         FileUtils.writeByteArrayToFile(new File("E:/testcopy.txt"), fileBytes);
-        FileUtils.writeStringToFile(new File("E:/textmy.txt"), "test");
+        FileUtils.writeStringToFile(new File("E:/textmy.txt"), "Test");
     }
 
 

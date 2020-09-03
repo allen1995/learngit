@@ -23,7 +23,7 @@ public class RedisWithReentrantLock {
     public static void main(String[] args) {
         //Jedis jedis = new Jedis("172.16.15.105",6379);
         //RedisWithReentrantLock redisWithReentrantLock = new RedisWithReentrantLock(jedis);
-        //System.out.println(jedis.del("test"));
+        //System.out.println(jedis.del("Test"));
         Jedis jedis = new Jedis("172.16.15.105",6379);
         RedisWithReentrantLock reentrantLock = new RedisWithReentrantLock(jedis);
 

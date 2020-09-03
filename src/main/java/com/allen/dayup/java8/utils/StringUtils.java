@@ -14,7 +14,7 @@ public class StringUtils {
         //String legalName = "一路灯控面板";
         //System.out.println(isLegalDevcieName("一路灯控面板","测试字符", "一路"));
         Map<String,Object> map = new HashMap<>();
-        System.out.println(map.get("test"));
+        System.out.println(map.get("Test"));
     }
 
     /**

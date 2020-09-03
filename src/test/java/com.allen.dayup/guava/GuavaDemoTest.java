@@ -57,8 +57,8 @@ public class GuavaDemoTest {
 
     @Test
     public void testOptionalMethodNotNull(){
-        String s = guavaDemo.optionalMethod("test");
-        assertEquals("test", s);
+        String s = guavaDemo.optionalMethod("Test");
+        assertEquals("Test", s);
     }
 
     @Test
@@ -69,8 +69,8 @@ public class GuavaDemoTest {
 
     @Test
     public void testOptionalMethodSupplierNotNull(){
-        String s = guavaDemo.optionalMethod("test");
-        assertEquals("test", s);
+        String s = guavaDemo.optionalMethod("Test");
+        assertEquals("Test", s);
     }
 
     @Test
@@ -81,13 +81,13 @@ public class GuavaDemoTest {
 
     @Test
     public void testOrnullReturnNotNull(){
-        String s = guavaDemo.optionalMethodOrnull("test");
+        String s = guavaDemo.optionalMethodOrnull("Test");
         assertNotNull(s);
     }
 
     @Test
     public void testOptionalTranformSuccess(){
-        String s = guavaDemo.optionalTranform("test");
+        String s = guavaDemo.optionalTranform("Test");
         assertEquals("transform string", s);
     }
 

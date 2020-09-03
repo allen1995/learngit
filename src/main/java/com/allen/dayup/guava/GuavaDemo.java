@@ -64,9 +64,9 @@ public class GuavaDemo {
 
         //ArrayListMultimap允许重复的key
         Multimap<String,String> map = ArrayListMultimap.create();
-        map.put("test","1");
-        map.put("test","2");
-        System.out.println(map.get("test"));
+        map.put("Test","1");
+        map.put("Test","2");
+        System.out.println(map.get("Test"));
 
 
     }
@@ -145,7 +145,7 @@ public class GuavaDemo {
     public String optionalTranform(String s){
         Optional<String> optional = Optional.fromNullable(s);
         optional.transform( input -> {
-            if( input.equals("test") ){
+            if( input.equals("Test") ){
                 return "transform string";
             }
             return null;
