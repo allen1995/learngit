@@ -1,9 +1,6 @@
 package com.allen.dayup.测试驱动开发.chap2;
 
-import org.omg.CORBA.ARG_IN;
-
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -57,5 +54,21 @@ public class TemplateParse {
         if( index != matcher.start() ){
             segs.add( src.substring(index, matcher.start()));
         }
+    }
+
+    public List<Segment> parseSegments(String template) {
+        List<Segment> segments = new ArrayList<>();
+        List<String> strings = parse(template);
+
+        for (String s : strings ){
+            if( Template.isVariable(s)){
+                String name = s.substring(2, s.length()-1);
+                segments.add(new Variable(name));
+            } else {
+                segments.add(new PlainText(s));
+            }
+        }
+
+        return segments;
     }
 }

@@ -3,8 +3,6 @@ package com.allen.dayup.测试驱动开发.chap2;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * @Auther: allen
@@ -33,58 +31,24 @@ public class Template {
     public String evaluate() throws MissingValueException{
 
         TemplateParse parse = new TemplateParse();
-        List<String> segments = parse.parse(templateText);
+        List<Segment> segments = parse.parseSegments(templateText);
 
         return concanate(segments);
     }
 
-    private String concanate(List<String> segments) throws MissingValueException {
+    private String concanate(List<Segment> segments) throws MissingValueException {
         StringBuilder result = new StringBuilder();
 
-        for (String segment : segments) {
-            append(segment, result);
+        for (Segment segment : segments) {
+            result.append(segment.evaluate(variableValues));
         }
 
         return result.toString();
     }
 
-    private void append(String segment, StringBuilder result) throws MissingValueException {
-        if( isVariable(segment) ) {
-            evaluateValue(segment, result);
-        } else {
-            result.append(segment);
-        }
-    }
 
-    private boolean isVariable(String segment) {
+    public static boolean isVariable(String segment) {
         return segment.startsWith("${") && segment.endsWith("}");
     }
-
-    private void evaluateValue(String segment,StringBuilder result) throws MissingValueException {
-        String var = segment.substring(2, segment.length()-1);
-        if( !variableValues.containsKey(var) ){
-            throw new  MissingValueException("No value for " + segment);
-        }
-        result.append(variableValues.get(var));
-    }
-
-    private String replaceVariables(){
-        String result = templateText;
-        for (  Map.Entry<String,String> entry : variableValues.entrySet() ) {
-            String regex = "\\$\\{" + entry.getKey() + "\\}";
-
-            result =  result.replaceAll( regex, entry.getValue());
-        }
-        return result;
-    }
-
-    private void checkMissingValue(String param) throws MissingValueException{
-        Matcher m = Pattern.compile(".*\\$\\{.+\\}.*").matcher(param);
-
-        if( m.find() ){
-            throw new MissingValueException("No value for " + m.group());
-        }
-    }
-
 
 }
