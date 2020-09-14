@@ -17,7 +17,7 @@ public class Test {
         String json = "{\"name\":\"\",\"age\":12}";
         JsonNode jsonNode = mapper.readTree(json);
         System.out.println(jsonNode.get("name").asText().isEmpty());
-        System.out.println(jsonNode.get("test"));
+        System.out.println(jsonNode.get("test.txt"));
 
     }
 
