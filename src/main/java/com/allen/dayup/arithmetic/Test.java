@@ -1,5 +1,8 @@
 package com.allen.dayup.arithmetic;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import java.io.IOException;
 
 /**
@@ -10,18 +13,13 @@ import java.io.IOException;
 public class Test {
 
     public static void main(String[] args) throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        String json = "{\"name\":\"\",\"age\":12}";
+        JsonNode jsonNode = mapper.readTree(json);
+        System.out.println(jsonNode.get("name").asText().isEmpty());
+        System.out.println(jsonNode.get("test.txt"));
 
-
-        int starttimeInt = 2200;
-        int endtimeInt = 800;
-        int nowTimeInt = 900;
-        int b = 0;
-        int  test = 0;
-         boolean result = (starttimeInt < endtimeInt && (starttimeInt <= nowTimeInt && nowTimeInt <= endtimeInt)) || (starttimeInt > endtimeInt && (starttimeInt <= nowTimeInt || nowTimeInt <= endtimeInt));
-        System.out.println(result);
     }
-
-
 
     private static void count(int a){
         a++;

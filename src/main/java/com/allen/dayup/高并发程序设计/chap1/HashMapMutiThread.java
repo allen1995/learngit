@@ -31,12 +31,12 @@ public class HashMapMutiThread {
 
     public static void main(String[] args) throws InterruptedException {
         AddThread addThread = new AddThread("Add_1", 0);
-        AddThread addThread2 = new AddThread("Add_2", 1);
+        //AddThread addThread2 = new AddThread("Add_2", 1);
         addThread.start();
-        addThread2.start();
+        //addThread2.start();
 
         addThread.join();
-        addThread2.join();
+        //addThread2.join();
 
         System.out.println("Map的size:" + map.size());
     }

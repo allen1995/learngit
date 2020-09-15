@@ -3,9 +3,6 @@ package com.allen.dayup.程序员的算法趣题.chap1;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.stream.Stream;
 
 /**
  * @Auther: 20190598
