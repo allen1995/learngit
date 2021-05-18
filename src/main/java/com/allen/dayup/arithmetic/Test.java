@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
+import java.math.BigInteger;
 
 /**
  * @Auther: 20190598
@@ -13,11 +14,14 @@ import java.io.IOException;
 public class Test {
 
     public static void main(String[] args) throws IOException {
-        ObjectMapper mapper = new ObjectMapper();
-        String json = "{\"name\":\"\",\"age\":12}";
-        JsonNode jsonNode = mapper.readTree(json);
-        System.out.println(jsonNode.get("name").asText().isEmpty());
-        System.out.println(jsonNode.get("test.txt"));
+        double ans1=0;
+        for (int i = 0; i < 4000000; i++){
+            ans1 += 0.1;
+        }
+        System.out.printf("%f\n", ans1);  //399999.999979,如果换成float类型呢？
+        
+
+        System.out.println(0.1000001f);
 
     }
 
