@@ -82,8 +82,8 @@
         </dependency>
 
         <dependency>
-            <groupId>com.googlecode.com.allen.dayup.aviator</groupId>
-            <artifactId>com.allen.dayup.aviator</artifactId>
+            <groupId>com.googlecode.aviator</groupId>
+            <artifactId>aviator</artifactId>
             <version>5.2.5</version>
         </dependency>
 
