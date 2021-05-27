@@ -1,5 +1,6 @@
 package com.allen.dayup.guava;
 
+import com.google.common.util.concurrent.RateLimiter;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

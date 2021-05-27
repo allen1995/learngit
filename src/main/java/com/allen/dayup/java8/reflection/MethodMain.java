@@ -12,6 +12,12 @@ public class MethodMain {
         System.out.println("getScore:" + stdClass.getMethod("getScore",String.class));
         System.out.println("getName:" + stdClass.getMethod("getName"));
         System.out.println("getGrade:" + stdClass.getDeclaredMethod("getGrade", int.class));
+
+        test(new Student(), new String[]{"1","2"});
+    }
+
+    private static void test(Student student, String... arg){
+        System.out.println(arg);
     }
 
     static class Student extends Person {

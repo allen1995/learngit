@@ -1,0 +1,14 @@
+<list>
+    <user id="001">
+        <name color="red">allen</name>
+        <age>18</age>
+        <address>湖北填满</address>
+    </user>
+
+    <user id="002">
+        <name color="red">wz</name>
+        <age>11</age>
+        <address>湖北天门</address>
+    </user>
+</list>
+
