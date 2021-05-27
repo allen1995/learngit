@@ -30,7 +30,7 @@ class Solution_875 {
         //low=5
 
 
-        while( low <= high ) {
+        while( low < high ) {
             int mid = ( low + high )/2; 
             int minHour = minEatingHour(piles, mid);
 
@@ -43,7 +43,7 @@ class Solution_875 {
             }
         }
 
-        return low-1;
+        return low;
     }
 
     private int minEatingHour(int[] piles, int speed) {
