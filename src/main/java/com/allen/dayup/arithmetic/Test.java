@@ -2,9 +2,14 @@ package com.allen.dayup.arithmetic;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.common.base.Splitter;
 
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
 
 /**
  * @Auther: 20190598
@@ -14,15 +19,38 @@ import java.math.BigInteger;
 public class Test {
 
     public static void main(String[] args) throws IOException {
-        double ans1=0;
-        for (int i = 0; i < 4000000; i++){
-            ans1 += 0.1;
+        //BigInteger b = new BigInteger("0a00000",16);
+        //System.out.println(b.intValue() > 0);
+        String opentimeHex = "330540230849";
+        LocalDateTime dateTime = test(opentimeHex);
+        System.out.println(dateTime);
+
+    }
+
+    public static LocalDateTime test(String opentimeHex) {
+        if( opentimeHex != null && opentimeHex.length() > 0 && (new BigInteger(opentimeHex, 16).intValue() > 0)) {
+            List<String> opentimeHexList = Splitter.fixedLength(2).splitToList(opentimeHex);
+            String opentime = opentimeHexList.stream()
+                    //16进制转换成十进制
+                    .map( s -> {
+                        String result = "";
+
+                        BigInteger bigInteger = new BigInteger(s, 16);
+                        int value = bigInteger.intValue();
+                        if( value/10 == 0 ){
+                            result = "0" + value;
+                        } else {
+                            result = String.valueOf(value);
+                        }
+                        return result;
+                    })
+                    .reduce("", (a,b) -> a+b);
+
+            LocalDateTime opentimeDate = LocalDateTime.parse(opentime, DateTimeFormatter.ofPattern("yyMMddHHmmss"));
+            return opentimeDate;
         }
-        System.out.printf("%f\n", ans1);  //399999.999979,如果换成float类型呢？
-        
 
-        System.out.println(0.1000001f);
-
+        return null;
     }
 
     private static void count(int a){
