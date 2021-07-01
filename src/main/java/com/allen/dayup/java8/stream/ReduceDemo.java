@@ -44,20 +44,20 @@ public class ReduceDemo {
                 })
                 .collect(Collectors.groupingBy( map -> getEventcode(map), Collectors.counting() ));
 
-        //Map<String,Long> unreadCount = eventlist.stream()
-        //        .map( event -> {
-        //            String identifier = event.get("eventcode").toString().split("\\d+$")[0];
-        //            event.put("eventcode", identifier);
-        //            return event;
-        //        })
-        //        .collect(Collectors.groupingBy( map -> getEventcode(map),  ));
+        Map<String,Long> unreadCount = eventlist.stream()
+                .map( event -> {
+                    String identifier = event.get("eventcode").toString().split("\\d+$")[0];
+                    event.put("eventcode", identifier);
+                    return event;
+                })
+                .collect(Collectors.groupingBy( map -> getEventcode(map),  Collectors.summingLong(ReduceDemo::mapToTotal)));
 
         System.out.println(groupEvent);
 
     }
 
     private static Long mapToTotal(Map<String,Object> map) {
-        Long total = (Long) map.get("total");
+        Long total = Long.valueOf(map.get("unread").toString()) ;
         return total;
     }
 

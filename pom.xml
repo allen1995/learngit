@@ -87,6 +87,12 @@
             <version>5.2.5</version>
         </dependency>
 
+        <dependency>
+            <groupId>me.shib.java.lib</groupId>
+            <artifactId>botan</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>

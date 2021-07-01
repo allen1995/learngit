@@ -1,14 +1,12 @@
 package com.allen.dayup.arithmetic;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.base.Splitter;
 
 import java.io.IOException;
-import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -19,11 +17,10 @@ import java.util.List;
 public class Test {
 
     public static void main(String[] args) throws IOException {
-        //BigInteger b = new BigInteger("0a00000",16);
-        //System.out.println(b.intValue() > 0);
-        String opentimeHex = "330540230849";
-        LocalDateTime dateTime = test(opentimeHex);
-        System.out.println(dateTime);
+        List<String> list = new ArrayList<String>(10);
+        list.add(2, "1");
+        System.out.println(list.get(1));
+
 
     }
 
