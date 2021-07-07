@@ -18,24 +18,34 @@ public class SimpleDateFormatDemo {
     //线程不安全
     //private static SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+
+        int count = 0;
         while (true) {
+            if( count++ == 10 ){
+                break;
+            }
             new Thread( () -> {
-                String dateStr = threadLocal.get().format(new Date());
 
-                try {
-                    Date checkDate = threadLocal.get().parse(dateStr);
-                    String checkDateStr = threadLocal.get().format(checkDate);
+                while (true) {
+                    String dateStr = threadLocal.get().format(new Date());
 
-                    boolean check = checkDateStr.equals(dateStr);
-                    if( !check ) {
-                        System.out.println("dataStr:" + dateStr + ",checkDateStr:" + checkDateStr);
+                    try {
+                        Date checkDate = threadLocal.get().parse(dateStr);
+                        String checkDateStr = threadLocal.get().format(checkDate);
+
+                        boolean check = checkDateStr.equals(dateStr);
+                        if( !check ) {
+                            System.out.println("dataStr:" + dateStr + ",checkDateStr:" + checkDateStr);
+                        }
+                    } catch (ParseException e) {
+                        e.printStackTrace();
                     }
-                } catch (ParseException e) {
-                    e.printStackTrace();
                 }
 
             }).start();
         }
+
+        Thread.sleep(100000000000000L);
     }
 }
